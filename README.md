@@ -18,7 +18,7 @@ Rakendus on tehtud Vue.js raamistikus. Kasutatud versiooni Vue 2.6.11
 Lisaks on kasutatud kaartide jaoks leaflet 1.7.1 ja vue2-leaflet 2.7.0, millest viimane on ehitatud leafleti peale ja peaks tegema leafleti kasutamist mugavamaks.
 
 Rakenduse ülesehitus:
-1.	Kasutaja sisestadu andmete liikumine ja kuvamine.
+1.	Kasutaja sisestatud andmete liikumine ja kuvamine.
 Rakendus koosneb kolmest komponendist: App.vue, DayLengthEnter.vue, Map.vue.
 App.vue on põhikomponent, mis lapskomponendiks on DayLengthEnter ja omakorda, mille lapskomponendiks on Map.vue.
 DayLengthEnter komponendis on sisendväljad, mis võtavad vastu info kraadides, minutites ja sekundites (Sisendinfo valideerimine jäi tegemata) ning samuti kuupäeva. Pikkuskraadid peaks olema maksimaalselt 0 – 90 kraadi ja laiuskraadid 0 - 180 kraadi ning raadionuppudega N,S,E,W saab valida, kas on mõeldud põhja, lõuna, ida või lääne koordinaate.
